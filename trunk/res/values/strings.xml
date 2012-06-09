@@ -2,6 +2,8 @@
 <resources>
 
     <string name="hello">Hello World, PowerSaverSettingsActivity!</string>
-    <string name="app_name">Power Saver Settings</string>
+    <string name="power_saver_settings_launcher_name">Power Saver Settings</string>
+    <string name="roaming_guards_settings_launcher_name">Roaming Guards</string>
+    <string name="app_name">Advanced Settings</string>
 
 </resources>
