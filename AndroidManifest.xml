@@ -1,21 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.logicvoid.androidadvancedsettings"
-    android:versionCode="2"
-    android:versionName="1.1" >
+    android:versionCode="3"
+    android:versionName="2.0" >
 
     <uses-sdk android:minSdkVersion="15" />
+    
 
     <application
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
+        
         <activity            
             android:name=".PowerSaverSettingsActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
-            android:label="@string/app_name" >
+            android:label="@string/power_saver_settings_launcher_name" 
+            android:taskAffinity="com.logicvoid.androidadvancedsettings.PowerSaverSettingsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity            
+            android:icon="@drawable/roaming_guard_settings_app_icon"
+            android:name=".RoamingGuardsSettingsActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:label="@string/roaming_guards_settings_launcher_name"
+            android:taskAffinity="com.logicvoid.androidadvancedsettings.RoamingGuardsSettingsActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
