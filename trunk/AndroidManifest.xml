@@ -8,10 +8,11 @@
     
 
     <application
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/app_icon"
         android:label="@string/app_name" >
         
         <activity            
+            android:icon="@drawable/power_saver_settings_app_icon"
             android:name=".PowerSaverSettingsActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
             android:label="@string/power_saver_settings_launcher_name" 
