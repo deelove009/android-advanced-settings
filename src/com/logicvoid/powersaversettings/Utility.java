@@ -1,4 +1,4 @@
-package com.logicvoid.androidadvancedsettings;
+package com.logicvoid.powersaversettings;
 
 /**
  * The Utility Class

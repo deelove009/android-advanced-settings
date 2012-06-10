@@ -1,4 +1,4 @@
-package com.logicvoid.androidadvancedsettings;
+package com.logicvoid.powersaversettings;
 
 import android.app.Activity;
 import android.content.ComponentName;
